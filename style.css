@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #32608d; color: #3b78aa; }
+nav { display: flex; justify-content: space-between; padding: 20px 10%; background: rgba(49, 101, 170, 0.979); }
+.logo { font-weight: bold; background: #1d345e; color: white; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 8px; }
+nav ul { display: flex; list-style: none; gap: 15px; }
+nav a { text-decoration: none; color: #1f4a81; font-weight: bold; }
+.hero { text-align: center; padding: 80px 20px; background: #17385e; color: white; }
+.hero h1 { font-size: 42px; }
+.hero h2 { font-size: 20px; font-weight: normal; margin: 10px 0; }
+.hero a { display: inline-block; margin: 10px; padding: 10px 20px; background: white; color: #0f2c6b; border-radius: 20px; text-decoration: none; font-weight: bold; }
+main { max-width: 900px; margin: 20px auto; padding: 0 20px; }
+section { background: white; padding: 25px; border-radius: 12px; margin-bottom: 20px; }
+section h3 { color: #0c3bd3; margin-bottom: 10px; }
+footer { text-align: center; padding: 20px; color: #058bf8; }
